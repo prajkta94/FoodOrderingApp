@@ -2,4 +2,22 @@
     <string name="app_name">FoodOrderingApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="designby_n_neat_root">DesignBy \n Neat Root</string>
+    <string name="grill_gravy"><![CDATA[Grill & Gravy]]></string>
+    <string name="sear_it_smother_it_serve_it">Sear it. Smother it. Serve it.</string>
+    <string name="next">Next</string>
+    <string name="every_bite_tells_a_story_enjoy_the_meal">Every bite tells a story – enjoy the meal.</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="login_to_yuor_account">Login To Yuor Account</string>
+    <string name="signin">SignIn</string>
+    <string name="don_t_have_account">Don\'t have Account</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="continue_with">Continue With</string>
+    <string name="facebook">faceBook</string>
+    <string name="google">Google</string>
+    <string name="signup_with">SignUp with</string>
+    <string name="already_have_an_account">Already have An Account</string>
+    <string name="choose_your_location">Choose Your Location</string>
 </resources>

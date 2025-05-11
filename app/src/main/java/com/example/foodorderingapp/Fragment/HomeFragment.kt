@@ -6,9 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView.LayoutManager
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.interfaces.ItemClickListener
 import com.denzcoskun.imageslider.models.SlideModel
+import com.example.foodorderingapp.Adapter.PopularAdapter
 import com.example.foodorderingapp.R
 import com.example.foodorderingapp.databinding.FragmentHomeBinding
 
@@ -54,6 +57,13 @@ class HomeFragment : Fragment() {
                 Toast.makeText(requireContext(),itemMessage,Toast.LENGTH_SHORT).show()
             }
         })
+
+        val item = listOf("Burger","sandwich","momo","item1")
+        val Price = listOf("$5","$6","$8","$7")
+        val image = listOf(R.drawable.banner1,R.drawable.banner4,R.drawable.banner4,R.drawable.banner4)
+        val adapter = PopularAdapter(item,Price,image)
+        binding.recyclerView.layoutManager = LinearLayoutManager(requireContext())
+        binding.recyclerView.adapter=adapter
 
 
 

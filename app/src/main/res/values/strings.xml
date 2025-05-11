@@ -20,4 +20,13 @@
     <string name="signup_with">SignUp with</string>
     <string name="already_have_an_account">Already have An Account</string>
     <string name="choose_your_location">Choose Your Location</string>
+    <string name="login_to_your_account">Login To Your Account</string>
+    <string name="continue_with_new">Continue With</string>
+    <string name="or">Or</string>
+    <string name="expolre_your_favourite_food">Expolre your favourite food</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="search">search</string>
+    <string name="cart">Cart</string>
+    <string name="home">Home</string>
 </resources>

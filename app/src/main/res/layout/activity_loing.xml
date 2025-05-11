@@ -25,6 +25,7 @@
         android:textColor="@color/text_color"
         android:layout_marginTop="10dp"
         android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_logo" />
@@ -41,6 +42,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/text_color"
+        android:fontFamily="@font/lato_italic"
 
         />
 
@@ -50,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center_horizontal"
-        android:text="Login To Yuor Account"
+        android:text="@string/login_to_your_account"
         android:textColor="@color/text_color"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -99,11 +101,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Or"
+        android:text="@string/or"
         android:id="@+id/txt_or"
+        android:textStyle="bold"
         android:textSize="20sp"
         android:layout_marginTop="10dp"
-
         app:layout_constraintEnd_toEndOf="@+id/txt_password"
         app:layout_constraintStart_toStartOf="@+id/txt_password"
         app:layout_constraintTop_toBottomOf="@+id/txt_password" />
@@ -113,8 +115,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Continue With"
+        android:text="@string/continue_with_new"
         android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/txt_password"
         app:layout_constraintStart_toStartOf="@+id/txt_password"
         app:layout_constraintTop_toBottomOf="@+id/txt_or" />
@@ -126,7 +129,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:drawableLeft="@drawable/facebook"
-        android:text="faceBook"
+        android:text="@string/facebook"
         android:padding="16dp"
         android:drawablePadding="8dp"
         app:flow_horizontalBias="0.5"
@@ -139,7 +142,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/google"
-        android:text="Google"
+        android:text="@string/google"
         android:padding="15dp"
         android:drawablePadding="8dp"
         android:background="@drawable/white_background"

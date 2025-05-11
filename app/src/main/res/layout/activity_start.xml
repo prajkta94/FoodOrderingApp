@@ -11,7 +11,7 @@
         android:id="@+id/img_splash"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="70dp"
         android:src="@drawable/splashs1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,6 +30,7 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/black"
+        android:fontFamily="@font/youngserif_regular"
         />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -50,7 +51,7 @@
         android:id="@+id/textView2"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="50dp"
         android:gravity="center_horizontal"
         android:text="@string/designby_n_neat_root"
         android:textColor="@color/text_color"
@@ -58,6 +59,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:fontFamily="sans-serif-condensed-medium"/>
+        android:fontFamily="sans-serif-condensed-medium"
+        android:visibility="gone"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

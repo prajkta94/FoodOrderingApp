@@ -28,10 +28,6 @@ class CartFragment : Fragment() {
     ): View? {
 
         binding = FragmentCartBinding.inflate(inflater,container,false)
-
-
-
-
         val cartItemList = listOf("Burger","Sandwich","Pizza","Momo","Wrap")
         val cartPriceList = listOf("$3","$3","$3","$3","$3")
         val cartImaelList = listOf(R.drawable.burger,
